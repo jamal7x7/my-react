@@ -1,9 +1,6 @@
 import './style.css'
 
 const vanillaApp = document.querySelector<HTMLDivElement>('#vanilla-app')
-const myReactApp = document.querySelector<HTMLDivElement>('#my-react-app')
-
-myReactApp.innerHTML = ` <h3>My React Clock</h3> <hr/>`
 
 let clock
 
@@ -21,9 +18,9 @@ function render() {
     new Array(n).fill(null).reduce((acc, _, i) => {
       acc += template(i)
       return acc
-    }, ` <h3>Vanilla Clock</h3> <hr/>`)
+    }, ` <h3 class="v">Vanilla Clock</h3> <hr/>`)
 
-  vanillaApp.innerHTML = createTemplate(10)
+  vanillaApp.innerHTML = createTemplate(1)
 }
 
 setInterval(() => {
