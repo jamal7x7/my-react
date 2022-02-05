@@ -20,7 +20,7 @@ function render() {
       return acc
     }, ` <h3 class="r">My React Clock</h3> <hr/>`)
 
-  myReactApp.innerHTML = createTemplate(1)
+  myReactApp.innerHTML = createTemplate(10)
 }
 
 setInterval(() => {

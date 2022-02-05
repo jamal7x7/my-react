@@ -3,17 +3,30 @@ body {
   margin: 0;
   /* overflow: hidden; */
   box-sizing: border-box;
-  background-color: #19242e;
+  background-color: #20232a;
 }
 
 #vanilla-app {
   color: #2c3e50;
   background-color: #efefef;
+  background-image: url(../vanilla.svg);
+  background-repeat: no-repeat;
+
+  background-repeat: no-repeat;
+  background-position: -100% 30%;
+  background-size: 70% auto;
 }
 
 #my-react-app {
-  background-color: #2c3e50;
+  background-color: #282c34;
   color: #efefef;
+
+  background-image: url(../react-logo.svg);
+  background-repeat: no-repeat;
+
+  background-repeat: no-repeat;
+  background-position: 200% 30%;
+  background-size: 70% auto;
 }
 
 hr {
@@ -31,7 +44,7 @@ hr {
 }
 
 .r {
-  color: rgb(115, 243, 252);
+  color: #61dafb;
 }
 .v {
   color: rgb(162, 117, 5);
